@@ -1,0 +1,138 @@
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center; 
+    color: white;
+     background: black;
+     min-height: 100vh;
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+   flex: 1 100%; 
+  }
+  
+  .header {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-family: 'Oleo Script Swash Caps', cursive;
+  }
+  
+  .footer {
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0px;
+  }
+  
+  
+  .aside-1 {
+   font-size: large;
+   text-align: left;
+  }
+  
+  .aside-2 {
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    background: url(./image/image1.jpg);
+   
+  }
+  /*ipad and desktop medium & large screen*/
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  
+  body {
+      margin: 0;
+    
+  }
+  
+  /*horizontal rule css*/
+hr { 
+  height: 2px;
+    border-style: none;
+    color: aliceblue;
+    border-top-style: solid;
+	}
+#myImage {
+    width: 50%;
+    border-radius: 10px;/*repeat border radius for src images*/
+}
+
+/*live typing image choices*/
+.image-wrapper {
+	justify-self: center; /*box justified inside its alignment container*/
+	position: relative;/*relative to normal position*/
+}
+
+.imgtext {
+  margin-top: 1.5rem;
+  font-family: 'Cinzel', serif;
+}
+
+#initial1 {
+  margin-right: 0.25rem;
+  font-size: 2.5rem;
+}
+#initial2 {
+  margin-left: 0.25rem;
+  font-size: 2.5rem;
+}
+#input1 {
+  font-size: 1.5rem;
+}
+#input2 {
+  font-size: 1.5rem;
+}
+#input3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+#input4{
+  margin-bottom: 0%;
+  font-size: 1.5rem;
+}
+#input5{
+  margin-top: 0%;
+  font-size: 1.5rem;
+}
+#amp{
+  font-size: 2.5rem;
+}
+
+.pointer {
+  font-size: large;
+  border: none;
+  background-color: inherit;
+  color: aliceblue;
+}
+
+h3 {
+  margin-top: 0%;
+  font-weight: lighter;
+}
+
+nav {
+  padding-left: 20%;
+}
+
+form {
+  padding-left: 20%;
+}
+
+label {
+  font-size: large;
+  border : 2rem;
+}
+input {
+  color: aliceblue;
+  width: 50%;
+    height: 2rem;
+    background-color: inherit;
+    border: solid 2px aliceblue;
+}
+/*text over image styling*/

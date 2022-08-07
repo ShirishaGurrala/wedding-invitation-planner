@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">Wedding Invitation Designer</header>
+    <aside class="aside aside-1">
+        <br>
+        <nav class="btnGroup">
+            <button class="pointer" onclick=design1();>Formal</button>
+            <button class="pointer" onclick=design2();>Spring</button>
+            <button class="pointer" onclick=design3();>Art Deco</button>
+            </nav>
+            <hr>
+    
+       <form action="">
+  
+              <label for="nameText">1st Name:</label>
+              <br>
+              <input type="text" id="nameText" name="name">
+             <br>
+              <label for="secondNameText">2nd Name:</label>
+              <br>
+              <input type="text" id="secondNameText" name="secondName">
+             <br>
+              <label for="lastNameText">Last Name:</label>
+              <br>
+              <input type="text" id="lastNameText" name="lastName">
+             <br>
+              <label for="">Date:</label>
+              <br>
+              <input type="text" id="dateText" value="">
+             <br>
+              <label for="location">Wedding Location:</label>
+              <br>
+              <input type="text" id="location" name="location">
+          </form>
+    </aside>
+  
+    <aside class="aside aside-2">
+        <div class="image-wrapper">
+            
+            <div class="imgtext">
+                <span id="initial1"></span>
+                <span id="amp">&</span>
+                <span id="initial2"></span>
+                <p>You are cordially invited to the Wedding of</p>
+                <span id="input1"></span>
+                <span>&</span>
+                <span id="input2"></span>
+                <p id="input3"></p>
+                <p id="input4"></p>
+                <p id="input5"></p>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">
+        <h6> Copyright &copy; 2022</h6>
+    </footer>
+  </div>
+ 
+    <script src="index.js"></script>
+</body>
+</html>
