@@ -35,8 +35,9 @@
     margin-left: 2.5rem;
     padding: 2.5rem;
     border-radius: 1.5rem;
-    background: url(./image/image4.jpg);
+    background: url(./image/image7.jpg);
     background-size: contain;
+    color: black;
   }
   /*ipad and desktop medium & large screen*/
   @media all and (min-width: 600px) {

@@ -51,20 +51,22 @@ locationNode.addEventListener('keyup', locationText)
 
 
 function design1(){
-    document.getElementsByClassName('aside-2')[0].style.backgroundImage="url(./image/image4.jpg)";
+    document.getElementsByClassName('aside-2')[0].style.backgroundImage="url(./image/image7.jpg)";
     document.getElementsByClassName('imgtext')[0].style.fontFamily = "Cinzel, serif"
-    document.getElementsByClassName('imgtext')[0].style.color = "white"
+    document.getElementsByClassName('imgtext')[0].style.color = "black"
 }
 
 function design2(){
-    document.getElementsByClassName('aside-2')[0].style.backgroundImage = "url(./image/image2.jpg)";
-    document.getElementsByClassName('imgtext')[0].style.fontFamily = "Dancing Script, cursive"
-    document.getElementsByClassName('imgtext')[0].style.color = "white"
+    document.getElementsByClassName('aside-2')[0].style.backgroundImage = "url(./image/image6.jpg)";
+   // document.getElementsByClassName('imgtext')[0].style.fontFamily = "Dancing Script, cursive"
+   document.getElementsByClassName('imgtext')[0].style.fontFamily = "Tiro Gurmukhi, serif" 
+   document.getElementsByClassName('imgtext')[0].style.color = "white"
 }
 
 function design3(){
     document.getElementsByClassName('aside-2')[0].style.backgroundImage= "url(./image/image3.jpg)";
-    document.getElementsByClassName('imgtext')[0].style.fontFamily = "Tiro Gurmukhi, serif"
+   // document.getElementsByClassName('imgtext')[0].style.fontFamily = "Tiro Gurmukhi, serif"
+   document.getElementsByClassName('imgtext')[0].style.fontFamily = "Dancing Script, cursive"
     document.getElementsByClassName('imgtext')[0].style.color = "black"
 }
 
