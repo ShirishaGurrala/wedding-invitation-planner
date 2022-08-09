@@ -20,11 +20,10 @@
   }
   
   .footer {
-    margin-top: 1.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 0px;
+    margin-top: auto;
   }
   
+
   
   .aside-1 {
    font-size: large;
@@ -36,8 +35,8 @@
     margin-left: 2.5rem;
     padding: 2.5rem;
     border-radius: 1.5rem;
-    background: url(./image/image1.jpg);
-   
+    background: url(./image/image4.jpg);
+    background-size: contain;
   }
   /*ipad and desktop medium & large screen*/
   @media all and (min-width: 600px) {
